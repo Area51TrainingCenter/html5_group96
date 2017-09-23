@@ -1,0 +1,30 @@
+/*
+	selector {
+		propiedad: valor;
+	} 
+
+	Color
+		Predeterminado
+		rgb
+		hexadecimal
+*/
+
+/* Universal */
+
+* {
+
+}
+
+/* De Tipo */
+
+h1 {
+	color:#999;
+}
+
+#intro {
+	color: yellow;
+}
+
+.nuevaIntro {
+	color: blue;
+}
