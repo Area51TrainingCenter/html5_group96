@@ -1,24 +1,48 @@
-table {
-	/*border-collapse: collapse;*/
-	color: black;
+/* 
+	Conjunto de reglas.
+
+		selector {
+			propiedad: valor;
+		}
+
+		Clave para entender CSS es asumir que todo elemento HTML esta englobado en una caja invisible
+
+		Colores tienen 3 maneras de dar valor:
+
+			Predeterminado
+			rgb()
+			hexadecimal
+
+*/
+
+/* Selector de tipo */
+
+h1 {
+	background-color: rgb(30, 60, 200);
+	color: #f5f5f5;
 }
 
-td {
+/* Selector IDs */
+
+#titulo {
+	background-color: teal;
+	color: white;
+}
+
+/* Selector Clases */
+
+.link {
 	background-color: red;
+	color: yellow;
 }
 
-th {
-	background-color: purple;
+#opacidad {
+	background-color: orchid;
+	color: white;
+	opacity: 0.2;
 }
 
-.table-emptycells {
-	empty-cells: hide;
-}
-
-.table-borderspacing {
-	border-spacing: 5px 15px;
-}
-
-.table-bordercollapse {
-	border-collapse: collapse;
+#rgba {
+	color: white;
+	background-color: rgba(49, 56, 129, 0.5);
 }
