@@ -1,0 +1,100 @@
+/* 
+	Propiedades de texto
+		Fuente
+		Texto
+
+	Unidades de medida en CSS
+		Pixeles - medida fija
+		Porcentajes - medida relativa
+		Em - medidas relativas
+*/
+
+@font-face {
+	font-family:'Area51';
+	src: url('fonts/bebas.ttf'),
+			 url('fonts/bebas.eot'),
+			 url('fonts/bebas.svg'),
+			 url('fonts/bebas.woff') 
+}
+
+@font-face {
+	font-family:'Mi otra fuente';
+	src: url('fonts/otra-fuente.ttf'),
+			 url('fonts/otra-fuente.eot'),
+			 url('fonts/otra-fuente.svg'),
+			 url('fonts/otra-fuente.woff') 
+}
+
+body {
+	font-size: 16px;
+}
+
+
+h1 {
+	font-family: 'Area51', Verdana, 'Times New Roman', sans-serif;
+}
+
+.bloque-fuentes p {
+	font-family: 'Poppins';
+	font-weight: 700;
+	font-size: 2em; 
+}
+
+.bloque-texto p {
+	font-family: Verdana;
+	font-style: italic;
+}
+
+/* Propiedades de CSS para el texto 
+
+div.texto p {
+	text-transform: uppercase;
+	text-transform: lowercase;
+	text-transform: capitalize;
+}
+
+
+div.texto p {
+	text-decoration: none;
+	text-decoration: underline;
+	text-decoration: line-through;
+	text-decoration: overline;
+}
+
+
+
+div.texto p {
+	text-align: left;
+	text-align: right;
+	text-align: center;
+	text-align: justify;
+
+	text-indent: 50%;
+}
+
+*/
+
+div.texto p {
+	line-height: 30px;
+}
+
+.fa-anchor {
+	font-size: 4em;
+	color: green;
+}
+
+p#primero {
+	text-shadow: 2px 3px 10px purple;
+}
+
+#primero:first-letter {
+	color: green;
+	font-size: 3em;
+}
+
+#primero:first-line {
+	color: purple;
+}
+
+
+
