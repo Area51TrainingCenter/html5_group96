@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.banner {
+
+  /*
+  background-image: url('images/banner.jpg');
+  
+  background-color: red;
+  background-image: url('https://c24e867c169a525707e0-bfbd62e61283d807ee2359a795242ecb.ssl.cf3.rackcdn.com/imagenes/gato/etapas-clave-de-su-vida/gatitos/nuevo-gatito-en-casa/gatito-durmiendo-en-cama.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+*/
+  background:url('images/banner.jpg') no-repeat top center;
+  background-size: cover;
+  /*
+  background-size: 500px 400px;
+  background-size: cover;
+  */
+  min-height: 600px;
+}
+.banner-desc {
+  background: rgba(255, 255, 255, 1);
+  max-width: 500px;
+  margin-left: 40px;
+}
+
+/*
+.banner-desc:hover {
+  background-color: blue;
+  color: white;
+  padding: 40px;
+}
+
+*/
+
+input#checked ~ label.check {
+  color: maroon;
+  font-size: 4em;
+}
+
+#hola {
+  padding: 10px;
+  margin: 0 0 20px 0;
+}
+
+#hola:focus {
+  background: green;
+  outline: none;
+  color: orangered;
+}
+
+::-webkit-input-placeholder {
+  color: pink
+}
+
+::-moz-input-placeholder {
+  color: pink
+}
+
+::-ms-input-placeholder {
+  color: pink
+}
+
+::-o-input-placeholder {
+  color: pink
+}
+
+#learn:active {
+  background: red;
+  border: none;
+  color: white;
+  outline: none
+}
