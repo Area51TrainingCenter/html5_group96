@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+code {
+  color: #666;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+}
+
+.cajas {
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cajas {
+  background: #eaeaed;
+  width: 350px;
+  height: 350px;
+  text-align: center;
+}
+.relative {
+  background: purple;
+  width: 350px;
+  height: 350px;
+  padding: 0;
+  text-align: center;
+}
+
+.relative p {
+  color: #fff;
+  background: #2db34a;
+}

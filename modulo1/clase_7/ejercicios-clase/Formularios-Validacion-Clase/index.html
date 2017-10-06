@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cajas Parte 2</title>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Validando Formularios</h1>
+    </div>
+  </header>
+  <main>
+    <section class="formularios container">
+      <form>
+        <fieldset class="login">
+          <legend>Login</legend>
+          <div class="input-wrap">
+            <i class="fa fa-users"></i>    
+            <label for="Nombre">Usuario</label>
+            <input type="text" name="nombre" required placeholder="Escribe aquí tu usuario" class="form-required" pattern="[a-z]{2,15}" />
+          </div>
+
+          <div class="input-wrap">
+            <i class="fa fa-envelope-o"></i>
+            <label for="Email">Email</label>
+            <input type="email" name="email" placeholder="ejemplo@correo.com" required class="form-required"/>
+          </div>
+
+          <div class="input-wrap">
+            <i class="fa fa-lock"></i>
+            <label for="Asunto">Contraseña</label>
+            <input type="password" placeholder="Escribe tu contraseña" class="optional" />
+          </div>
+
+          <div class="check">
+            <input type="checkbox" class="checkbox" id="checking"/>
+            <label for="checking" checked>Usando un check</label>
+          </div>
+        </fieldset>
+
+        <input type="submit" name="submit" value="Enviar" class="button blue medium contact-btn">
+
+        <input type="submit" name="submit" value="Boton Desabilitado" disabled>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
