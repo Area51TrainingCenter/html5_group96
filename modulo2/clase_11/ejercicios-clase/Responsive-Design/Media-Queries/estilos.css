@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+header {
+  padding: 19px 0 4px 0;
+  box-shadow: 1px 1px 4px 0px #ccc;
+}
+
+header h1 {
+  width: 12.5%;
+  float: left;
+  margin-left: 2%;
+}
+
+header .menu {
+  float: right;
+  margin-top: 14px;
+}
+
+header img {
+  max-width: 100%;
+}
+
+header li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+header li:last-child a{
+  margin-right: 0;
+}
+
+header .menu a {
+  color: #333;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8em; 
+  margin-right: 2.875em;
+  transition: color 500ms;
+  display: block;
+}
+
+header a:active, header a:hover, header .active {
+  color: #03a9f4;
+}
+
+header .mobile-nav a {
+  font-size: 2em;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 1px solid #ededed;
+  border-radius: 10px;
+  display: none;
+}
+
+/* Services */
+
+.services-wrap {
+  margin-top: 40px;
+  background: #f7f7f7;
+}
+
+.services {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 25px 1em;
+  margin: 20px 3% 15px 0;
+  text-align: center;
+  border:1px solid #ededed;
+  background: white;
+  transition: transform 2s;
+}
+
+.services:nth-child(3), .services:nth-child(6) {
+  margin-right: 0;
+}
+
+.services:hover {
+  transform: translateY(-10px);
+}
+
+.services span {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 2em;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  border: 1px solid #ededed;
+  line-height: 80px;
+  margin: 0 auto;
+  transition: transform 1s, background 500ms, color 500ms;
+}
+
+.services:hover span {
+  transform: translateY(-10px);
+  background: #03a9f4;
+  color: white;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 768px){
+  header .menu {
+    display: none;
+  }
+  header .mobile-nav a {
+    display: block;
+  }
+
+  .services {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 480px){
+  body {
+    background: yellow;
+  }
+
+  .services {
+    width: 100%;
+  }
+}
