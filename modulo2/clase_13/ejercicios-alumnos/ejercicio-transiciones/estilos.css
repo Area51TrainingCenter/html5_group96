@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ededed;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.services {
+  width: 32%;
+  background: white;
+  display: inline-block;
+  padding: 100px 30px 80px 30px;
+  text-align: center;
+  margin-right: 1%;
+  margin-top: 40px;
+  box-shadow: 1px 1px 1px 18px 1px #ededed;
+  transition: background 1s;
+}
+
+.services:hover {
+  background: #74a534;
+}
+
+.services h2 {
+  padding: 30px 0;
+}
+
+.services p {
+  line-height: 25px;
+}
+
+.services h2,
+.services p {
+  transition: color 200ms;
+}
+
+.services:hover h2,
+.services:hover p {
+  color: white;
+}
+
+.services span {
+  font-size: 3.5em;
+  position: relative;
+  top: 0;
+  transition: top 5 00ms;
+}
+
+.services:hover span {
+  top: -20px;
+  color: white;
+}
+
