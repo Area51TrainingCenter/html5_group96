@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ededed;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  color: white;
+  background: blue;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.fa-camera {
+  transition: transform 1s, color 1s;
+}
+
+.fa-camera:hover {
+  transform: rotate(360deg);
+  color: black;
+}
+
+.services {
+  width: 47%;
+  background: white;
+  display: inline-block;
+  padding: 100px 30px 80px 30px;
+  text-align: center;
+  margin-right: 1%;
+  margin-top: 40px;
+  box-shadow: 1px 1px 1px 18px 1px #ededed;
+}
+
+.services figure {
+  position: relative;
+}
+
+.services figcaption {
+  background: rgba(0,0,0,0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: opacity 1s;
+  opacity: 0;
+}
+
+.services:hover figcaption {
+  opacity: 1;
+}
+
+.services figcaption .fa {
+  transform: scale(0);
+  transition: transform 1s 500ms;
+  color: white;
+  margin-top: 160px;
+}
+
+.services:hover figcaption .fa {
+  transform: scale(5);
+}

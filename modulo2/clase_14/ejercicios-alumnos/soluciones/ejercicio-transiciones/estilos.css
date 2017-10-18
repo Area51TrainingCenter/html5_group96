@@ -23,12 +23,13 @@ body {
   margin-right: 1%;
   margin-top: 40px;
   box-shadow: 1px 1px 1px 18px 1px #ededed;
-  transition: background 1s;
+  transition: background 500ms;
 }
 
 .services:hover {
   background: #74a534;
 }
+
 
 .services h2 {
   padding: 30px 0;
@@ -38,13 +39,13 @@ body {
   line-height: 25px;
 }
 
-.services h2,
-.services p {
+.services p,
+.services h2 {
   transition: color 200ms;
 }
 
-.services:hover h2,
-.services:hover p {
+.services:hover p,
+.services:hover h2 {
   color: white;
 }
 
@@ -52,7 +53,7 @@ body {
   font-size: 3.5em;
   position: relative;
   top: 0;
-  transition: top 5 00ms;
+  transition: top 500ms;
 }
 
 .services:hover span {
