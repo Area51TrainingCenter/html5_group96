@@ -12,10 +12,23 @@ body {
   background: #fff;
   max-width: 1200px;
   width: 100%;
-  margin: 40px auto;
-  padding: 40px 0 40px 2em;
+  margin: 0px auto;
+  padding: 20px 0 20px 2em;
 }
 
 h1 {
-  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 3em;
+}
+
+.imagenes-wrap {
+  margin-top: 40px;
+}
+
+img {
+  width: 300px;
+  vertical-align: top;
 }
