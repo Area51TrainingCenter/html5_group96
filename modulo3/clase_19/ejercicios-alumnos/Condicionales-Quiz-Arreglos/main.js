@@ -9,7 +9,7 @@
 
     b. Si el usuario responde correctamente cualquier pregunta, debes de tener un contador que guarde el registro de respuestas correctas.
 
-  Los escenarios según la cantidad de respuestas respondidas correctamente son los siguientes:
+  Los mensajes que se mostrarán según la cantidad de respuestas correctamente respondidas son los siguientes:
 
     a. Si el usuario respondió las 3 preguntas correctamente, se le enviará un mensaje que debe de contener 
 
