@@ -21,7 +21,7 @@
 */
 
 
-var students = [ 
+var estudiantes = [ 
   { 
    name: 'Dave',
     track: 'Front End Development',
@@ -56,9 +56,19 @@ var students = [
 
 // Imprimiendo la informacion en la pantalla
 
-var message=" ";
+var message = " ";
 
-function print(message) {
+function print(pepilospalotes) {
   var divReporte = document.getElementById('reporte-estudiantes');
   divReporte.innerHTML = message;
 }
+
+for( var i = 0; i < estudiantes.length; i++ ){
+	var estudiante = estudiantes[i];
+	message += '<h2> Estudiante: ' + estudiante.name + '</h2>';
+	message += '<p> Estudiante: ' + estudiante.track + '</p>';
+	message += '<p> Estudiante: ' + estudiante.achievements + '</p>';
+	message += '<p> Estudiante: ' + estudiante.points + '</p>';
+}
+
+print(message);
